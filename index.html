@@ -16,11 +16,22 @@
         <nav class="menu">
             <img src="./img/logo.png" alt="logo" class="logo">
             <ul class="lista">
-                <a href="#home"  class="link1"><li>Home</li></a>
-                <a href="#sobre" class="link2"><li>Sobre</li></a>
-                <a href="#projetos" class="link3"><li>Projetos</li></a>
+                <li class="link1"><a href="#home"  class="link1">Home</a></li>
+                <li class="link2"><a href="#sobre"  class="link2">Sobre</a></li>
+                <li class="link3"><a href="#projetos"  class="link3">Projetos</a></li>
             </ul>
+
+            <div class="mobile-menu-icon">
+              <button onclick="menuShow()"><img class="icon" src="./img/menu_white_36dp.svg" alt=""></button>
+          </div>
         </nav>
+        <div class="mobile-menu">
+          <ul class="lista">
+            <li class="link1"><a href="#home"  class="link1">Home</a></li>
+            <li class="link2"><a href="#sobre"  class="link2">Sobre</a></li>
+            <li class="link3"><a href="#projetos"  class="link3">Projetos</a></li>
+        </ul>
+      </div>
     </header>
     <main>
         <section id="home" class="container1">
@@ -148,5 +159,7 @@
         <h1 class="footer-h1">Criado por <strong class="name-footer">Vitor Almeida</strong></h1> 
         <i class="small material-icons">copyright</i>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>

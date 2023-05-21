@@ -10,12 +10,7 @@ body{
 
 .header{
         background-color: #151515;
-        font-family: "inter", sans-serif;
-        padding: .1rem;
         border-bottom: 2px solid #272727;
-        width: 100%;
-        display: flex;
-
 }
 
 .logo{
@@ -26,10 +21,10 @@ body{
 
 .menu{
     font-size: 1rem;
-    margin-right: 10%;
+    margin-right: 5%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+ 
 }
 
 .lista {
@@ -47,6 +42,29 @@ body{
     color: white;
     text-decoration: none;
 }
+
+.login-button button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #0187a7;
+}
+
+.login-button button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
 
 .container1{
     display: flex;
@@ -387,7 +405,7 @@ i{
   margin-left: 5px;
 }
 
-@media  (max-width: 1100px)
+@media (max-width: 1100px)
 {
    .header{
     width: 100%;
@@ -425,13 +443,52 @@ i{
   }
 }
 
-@media  (max-width: 792px) {
+@media (max-width: 792px) {
 
   .header{
-    width: 800px;
+    width: 802px;
   }
 
-  
+  .lista{
+    display: none;
+  }
+
+  .link1, .link2, .link3{
+    margin-right: 0;
+    margin-bottom: 4%;
+    font-size: 1.8rem;
+  }
+  .mobile-menu-icon {
+    display: block;
+}
+
+.mobile-menu-icon button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.mobile-menu .nav-item {
+  display: block;
+  padding-top: 1.2rem;
+}
+.mobile-menu .login-button {
+  display: block;
+  padding: 1rem 2rem;
+}
+.mobile-menu .login-button button {
+  width: 100%;
+}
+
+  .open {
+    display: block;
+}
+
   .container1, .container2, .container3, .footer{
     width: 800px;
   }
