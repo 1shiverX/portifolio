@@ -460,13 +460,13 @@ i{
   }
   .mobile-menu-icon {
     display: block;
+    margin-top: 1%;
 }
 
 .mobile-menu-icon button {
   background-color: transparent;
   border: none;
   cursor: pointer;
-   margin-top: 1%;
 }
   .mobile-menu ul {
     display: flex;
