@@ -466,7 +466,7 @@ i{
   background-color: transparent;
   border: none;
   cursor: pointer;
-  margin-bottom: 5%;
+   margin-top: 1%;
 }
   .mobile-menu ul {
     display: flex;
