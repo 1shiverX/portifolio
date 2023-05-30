@@ -560,7 +560,10 @@ i{
   }
   .container2{
     height: 700px;
-  }}
+  }
+  .container3{
+    height: 00px;
+  }
   .logo{
     width: 45%;
   }
