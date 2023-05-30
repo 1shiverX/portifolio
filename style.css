@@ -496,11 +496,12 @@ i{
 
   .header{
     width: 802px;
+    height: 150px;
   }
 
   .item1{
     margin-top: 80px;
-    margin-left:30%
+    margin-left:50%
     width:100%;
 }
   .item2{
@@ -551,14 +552,15 @@ i{
 
   .container1, .container2, .container3, .footer{
     width: 800px;
+    height: 550px;
   }
 
   .container1{
-    height: 500px;
+    height: 700px;
   }
   .container2{
-    height: 600px;
-  }
+    height: 700px;
+  }}
   .logo{
     width: 45%;
   }
