@@ -334,10 +334,8 @@ h5{
 
 .boxs{
     display: flex;
-    gap: 7%;
     align-items: center;
     justify-content: center;
-    margin-left: 5%;
 }
 
 .cardpro, .cardpro2, .cardpro3 {
@@ -352,8 +350,12 @@ h5{
   position: relative;
   margin-top: 100px;
   margin-bottom: 100px;
+  margin-left: 20px;
 }
 
+.cardpro3{
+  font-size: 2.4rem;
+}
 
 .card__img {
   width: 100%;
@@ -378,7 +380,7 @@ h5{
   height: 100%;
   object-fit: cover;
   border-radius: 8px 8px 0 0;
-  background-image: url(./img/box3.png);
+  background-image: url(./img/EM\ BREVE.png);
   background-repeat: round;
 }
 
